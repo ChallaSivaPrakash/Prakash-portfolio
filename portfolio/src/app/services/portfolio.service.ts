@@ -42,7 +42,7 @@ export class PortfolioService {
         "Engineered an asynchronous backend with strict Pydantic payload validation and SQLAlchemy 2.0 ORM."
       ],
       marketDifferentiator: "Privacy-first local LLM deployment (Llama 3 via Docker/AWS ECS) completely eliminates third-party API dependencies—making DermaVerse HIPAA-aligned and production-safe for sensitive medical records.",
-      github: "https://github.com/ChallaSivaPrakash",
+      github: "https://github.com/ChallaSivaPrakash/dermaverse-ai-platform.git",
       accent: "#00ff9d",
       icon: "🧪",
       category: "Generative AI + Full Stack"
@@ -78,21 +78,7 @@ export class PortfolioService {
       icon: "📋",
       category: "Full Stack + Graphics"
     },
-    {
-      title: "AI E-Commerce Platform & Pentesting Lab",
-      tagline: "Production-grade commerce engine with integrated security vulnerabilities engineered for custom script scanning.",
-      stack: ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Bcrypt"],
-      highlights: [
-        "Constructed structural backend schemas linking user profiles, catalog indexes, and transactional order arrays.",
-        "Engineered explicit security gaps including IDOR vulnerability vulnerabilities to test automated validation sequences.",
-        "Secured baseline session handshakes using cryptographically sound JWT access rules."
-      ],
-      marketDifferentiator: "Doubles as a custom web application honeypot built for validation execution and active local security hardening simulations.",
-      github: "https://github.com/ChallaSivaPrakash",
-      accent: "#f59e0b",
-      icon: "🛒",
-      category: "Full Stack"
-    },
+    
     {
       title: "AI-Mock-Interview Platform",
       tagline: "Real-time technical interview simulator engineered through multi-model orchestration.",
@@ -141,30 +127,45 @@ export class PortfolioService {
     {
       title: "Introduction to Generative AI",
       issuer: "Google Cloud",
-      credentialUrl: "https://drive.google.com/file/d/1fUA0nMSHBvPfnauTn5erK4i-pLF-XO4f/view?usp=drivesdk",
+      credentialUrl: "",
       icon: "☁️",
       category: "GenAI & Cloud"
     },
     {
       title: "Career Essentials in Generative AI",
       issuer: "Microsoft & LinkedIn",
-      credentialUrl: "https://drive.google.com/file/d/1NXwMAGg99ofOHVLW8dygt6FFxsYMlbbi/view?usp=drivesdk",
+      credentialUrl: "",
       icon: "🧠",
       category: "GenAI & Cloud"
     },
     {
       title: "Java Full-Stack Developer Global Certificate (FSD73)",
       issuer: "TalentSprint",
-      credentialUrl: "https://drive.google.com/file/d/1U1S1e_FQF-kygSEK0AuLwxa16B8IoadE/view?usp=drivesdk",
+      credentialUrl: "",
       icon: "☕",
       category: "Enterprise Full-Stack"
     },
     {
       title: "AI/ML Internship - Generative AI / LLM Practitioner",
       issuer: "AICTE & India Edu Program",
-      credentialUrl: "https://drive.google.com/file/d/1BKweowRniYeTzuyAVLzUxHRbt7FqYkoK/view?usp=drivesdk",
+      credentialUrl: "https://drive.google.com/file/d/1NXwMAGg99ofOHVLW8dygt6FFxsYMlbbi/view?usp=drivesdk",
       icon: "🤖",
       category: "GenAI & Cloud"
+    },
+    {
+      title: "Salesforce Certified Agentforce Specialist",
+      issuer: "Sales Force",
+      credentialUrl: "https://drive.google.com/file/d/1fUA0nMSHBvPfnauTn5erK4i-pLF-XO4f/view?usp=drivesdk",
+      icon: "☁️",
+      category: "GenAI & Cloud"
+    },
+
+    {
+      title: "Cisco Cybersecurity ",
+      issuer: "Cisco Networking Academy",
+      credentialUrl: "https://drive.google.com/file/d/1BKweowRniYeTzuyAVLzUxHRbt7FqYkoK/view?usp=drivesdk",
+      icon: "🛡️",
+      category: "Cybersecurity"
     },
     {
       title: "Cisco Cybersecurity Essentials",
