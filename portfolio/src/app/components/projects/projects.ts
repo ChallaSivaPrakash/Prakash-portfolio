@@ -64,6 +64,11 @@ import { Project } from '../../models/portfolio.model';
                   </ul>
                 </div>
 
+                <div class="p-4 rounded-xl" [style.background]="'linear-gradient(135deg, ' + activeProject.accent + '22, ' + activeProject.accent + '08)'">
+                  <h4 class="text-sm font-bold uppercase tracking-widest mb-3" [style.color]="activeProject.accent">MARKET DIFFERENTIATOR</h4>
+                  <p class="text-white/80 text-sm leading-relaxed">{{ activeProject.marketDifferentiator }}</p>
+                </div>
+
                 <div>
                   <h4 class="text-sm font-bold uppercase tracking-widest text-white/40 mb-3">Tech Stack</h4>
                   <div class="flex flex-wrap gap-2">

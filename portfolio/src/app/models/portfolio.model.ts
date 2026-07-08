@@ -8,11 +8,20 @@ export interface Project {
   tagline: string;
   stack: string[];
   highlights: string[];
+  marketDifferentiator: string; 
   github: string;
   accent: string;
   icon: string;
   category: string;
   image?: string;
+}
+
+export interface Certification {
+  title: string;
+  issuer: string;
+  credentialUrl: string;
+  icon: string;
+  category: 'GenAI & Cloud' | 'Cybersecurity' | 'Networking' | 'Enterprise Full-Stack';
 }
 
 export interface Service {
